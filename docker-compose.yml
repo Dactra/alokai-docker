@@ -55,7 +55,7 @@ services:
     restart: unless-stopped
 
     ports:
-      - "3000:3000"
+      - "7000:3000"
 
     volumes:
       - nuxt_build:/apt/.nuxt
